@@ -1,17 +1,17 @@
-# IRIS Robot - Autonomous Water Harvesting System
+# IRIS Robot - Integrated Robotic Irrigation System
 
 ## Overview
 
 The IRIS robot is a fully autonomous, solar-powered, mobile water-harvesting unit engineered to operate in extreme environments where traditional infrastructure fails. This repository contains the complete, implementable code for all four core systems of the IRIS robot.
 
-## 🚀 Features
+## Features
 
 - **Mobile Water Harvesting**: Atmospheric water generation with intelligent humidity and temperature monitoring
 - **Self-Sustained Energy System**: Solar power management with smart battery optimization
 - **Intelligent Decision-Making**: Satellite image analysis using TensorFlow for water source detection
 - **Obstacle Avoidance & Safe Navigation**: LIDAR-based autonomous navigation with obstacle detection
 
-## 📁 Code Structure
+## Code Structure
 
 ### 1. Water Extraction System (`codesnip1.cpp`)
 **Arduino-based atmospheric water generator control system**
@@ -81,7 +81,7 @@ The IRIS robot is a fully autonomous, solar-powered, mobile water-harvesting uni
 
 **Dependencies**: See `requirements.txt`
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -123,7 +123,7 @@ The IRIS robot is a fully autonomous, solar-powered, mobile water-harvesting uni
 
 2. **Hardware connections**: See individual code files for pin definitions
 
-## 🚀 Usage Examples
+## Usage Examples
 
 ### Water Extraction System
 
@@ -166,7 +166,7 @@ python codesnip4.py --goal-x 5.0 --goal-y 3.0 --simulation
 python codesnip4.py --goal-x 5.0 --goal-y 3.0 --simulation --visualize
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Water Extraction System
 - Adjust `HUMIDITY_THRESHOLD` and `TEMP_THRESHOLD` for different climates
@@ -188,7 +188,7 @@ python codesnip4.py --goal-x 5.0 --goal-y 3.0 --simulation --visualize
 - Adjust `look_ahead_distance` for path planning
 - Modify velocity limits in `NavigationCommand`
 
-## 📊 Performance & Monitoring
+## Performance & Monitoring
 
 ### Water Extraction
 - Water collection efficiency tracking
@@ -210,7 +210,7 @@ python codesnip4.py --goal-x 5.0 --goal-y 3.0 --simulation --visualize
 - Path planning efficiency
 - Collision avoidance metrics
 
-## 🧪 Testing
+## Testing
 
 ### Python Code Testing
 ```bash
@@ -227,32 +227,32 @@ python codesnip4.py --goal-x 2.0 --goal-y 2.0 --simulation
 - Test individual sensors before full system integration
 - Verify pin connections with simple test sketches
 
-## 🔒 Safety Features
+## Safety Features
 
 - **Water System**: Storage capacity monitoring, sensor validation
 - **Solar System**: Battery protection, overcharge prevention
 - **Navigation**: Collision avoidance, emergency stop capabilities
 - **General**: Error handling, logging, system state monitoring
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - **Water System**: Advanced filtration, water quality monitoring
 - **Solar System**: MPPT optimization, weather prediction integration
 - **Satellite Analysis**: Real-time satellite data integration, seasonal analysis
 - **Navigation**: Advanced path planning algorithms, multi-robot coordination
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes with proper testing
 4. Submit a pull request with detailed description
 
-## 📄 License
+## License
 
 This project is part of the IRIS robot development for the NYAS Climate Change Challenge.
 
-## 🆘 Support
+## Support
 
 For technical support or questions:
 - Check the code comments for detailed explanations
@@ -260,7 +260,7 @@ For technical support or questions:
 - Ensure all hardware connections are correct
 - Verify sensor calibrations and configurations
 
-## 🔗 Related Resources
+## Related Resources
 
 - [IRIS Robot Specifications](link-to-specs)
 - [Hardware Assembly Guide](link-to-assembly)
